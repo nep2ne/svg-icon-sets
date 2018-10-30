@@ -2,10 +2,20 @@ html {
   font-family: Overpass, sans-serif;
 }
 
-a {
-  color: #;
+section {
+  background-image: linear-gradient(#ff9500 #ff5e3a);
 }
 
-a:hover {
-  color: #;
+a {
+  color: #fff;
+}
+
+btn {
+  color: rgba(255, 255, 255, 0);
+  border: 2px solid #fff;
+  border-radius: 5px;
+}
+
+btn:hover {
+  color: #fff;
 }
