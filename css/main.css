@@ -1,21 +1,22 @@
 html {
   font-family: Overpass, sans-serif;
+  color: #fff;
 }
 
 section {
-  background-image: linear-gradient(#ff9500 #ff5e3a);
+  background-image: linear-gradient(to bottom, #ff9500, #ff5e3a);
 }
 
 a {
   color: #fff;
 }
 
-btn {
+.btn {
   color: rgba(255, 255, 255, 0);
   border: 2px solid #fff;
   border-radius: 5px;
 }
 
-btn:hover {
+.btn:hover {
   color: #fff;
 }
