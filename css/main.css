@@ -12,11 +12,39 @@ a {
 }
 
 .btn {
-  color: rgba(255, 255, 255, 0);
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0);
   border: 2px solid #fff;
   border-radius: 5px;
 }
 
 .btn:hover {
   color: #fff;
+  border: 3px solid #fff;
+}
+
+.orange {
+  background-color: #ff9500;
+}
+
+.grid > .unit:nth-child(2) {
+  border-top: 2px solid #ff9500;
+}
+
+.grid > .unit:nth-child(3) {
+  border-top: 2px solid #ff9500;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .grid > .unit:nth-child(2) {
+    border-top: 0 solid #ff9500;
+    border-left: 2px solid #ff9500;
+  }
+
+  .grid > .unit:nth-child(3) {
+    border-top: 0 solid #ff9500;
+    border-left: 2px solid #ff9500;
+  }
+
 }
