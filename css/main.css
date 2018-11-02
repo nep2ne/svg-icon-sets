@@ -28,23 +28,23 @@ a {
 }
 
 .grid > .unit:nth-child(2) {
-  border-top: 2px solid #ff9500;
+  border-top: 3px solid #ff9500;
 }
 
 .grid > .unit:nth-child(3) {
-  border-top: 2px solid #ff9500;
+  border-top: 3px solid #ff9500;
 }
 
 @media only screen and (min-width: 60em) {
 
   .grid > .unit:nth-child(2) {
     border-top: 0 solid #ff9500;
-    border-left: 2px solid #ff9500;
+    border-left: 3px solid #ff9500;
   }
 
   .grid > .unit:nth-child(3) {
     border-top: 0 solid #ff9500;
-    border-left: 2px solid #ff9500;
+    border-left: 3px solid #ff9500;
   }
 
 }
